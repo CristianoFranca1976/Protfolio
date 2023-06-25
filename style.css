@@ -1,0 +1,748 @@
+body{
+    background: #22212C;
+    background-size: cover;
+    margin: 0;
+}  
+
+.container {
+    display: flex;
+    background: #22212C;
+    position: relative; /*eu coloquei realtivo pra testar, a imagem ficou a metade de cima fora de vista */
+    width: 100%;
+    max-width: 1440px;
+    height: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }  
+    
+.container .retangulo {
+    
+    border: 1px solid #302F3D;
+    background: #302F3D;
+    position: absolute;
+    width: 100%;
+    max-width: 348px;
+    height: 292px;
+    top: 40px;
+    left: 40px;
+    border-radius: 10%; /*removi o display: flex; */
+    
+}
+
+
+
+.imagem-avatar {
+    border: 2px solid #070707;
+    position: absolute;
+    top: 32px;
+    width: 128px;
+    height: 128px;
+    left: 110px;
+   
+    border-radius: 128px;
+    background-image: url(assets/avatar-depois.png);
+    background-size: cover;
+}
+
+
+.retangulo .paragrafo1 { 
+    
+    color: #837E9F;
+    font-size: 22px;
+    font-family: Merriweather Sans;
+    font-weight: 700;
+    position: absolute;
+    width: 265px;
+    height: 26px;
+    top: 170px;
+    left: 45px;
+
+}
+
+.retangulo .paragrafo2 {
+    color: #837E9F;
+    font-size: 13px;
+    font-family: Merriweather Sans;
+    font-weight: 300;
+    position: absolute;
+    width: 154px;
+    height:17px;
+    top: 226px;
+    left: 90px;
+    margin: 10px;
+    
+}
+    
+.retangulo:hover{
+    background: #fafafb2d;
+    border: 3px solid #070707;
+}
+
+.container .retangulo1 {
+    
+    border: 1px solid #302F3D;
+    background: #302F3D;
+    position: absolute;
+    width: 100%;
+    max-width: 952px;
+    height: 86px;
+    right: 40px;
+    top: 40px;
+    left: 448px;
+    border-radius: 20px;
+    
+
+}
+.retangulo1 .paragrafo1 {
+    
+    color: #837E9F;
+    font-size: 20px;
+    font-family: Merriweather Sans;
+    font-weight: 700;
+
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    top: 10px;
+    left: 30px;
+    
+}
+
+.retangulo1 .paragrafo2 {
+    
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    top: 20px;
+    right: 30px;
+
+    color: #837E9F;
+    font-size: 14px;
+    font-family: Merriweather Sans;
+    
+}
+.retangulo1:hover {
+    background: #fafafb2d;
+    border: 3px solid #070707;
+}
+
+.container .retangulo2 {
+    
+    position: absolute;
+    width: 100%;
+    max-width: 461px;
+    height: 186px;
+    top: 157px;
+    left: 448px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #302F3D;
+    
+}
+
+.retangulo2:hover {
+    background: #fafafb2d;
+    border: 3px solid #070707;
+}
+
+.retangulo2 .img1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 30px;
+    left: 30px;
+    
+}
+
+.retangulo2 .paragrafo1 {
+    position: absolute;
+    width: 79px;
+    height: 17px;
+    left: 66px;
+    top: 17px;
+
+    color: #837E9F;
+    font-size: 16px;
+    font-family: Merriweather Sans;
+    font-weight: 700;
+}
+
+.retangulo2 .paragrafo2 {
+    
+    position: absolute;
+    width: 421px;
+    height: 19px;
+    top: 70px;
+    left: 30px;
+
+    color: #837E9F;
+    font-size: 14px;
+    font-family: Merriweather Sans;
+    line-height: 20px;
+}
+
+.retangulo2 .img2 {
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 30px;
+    top: 150px;
+    flex-shrink: 0;
+}
+
+.retangulo2 .paragrafo3 {
+    position: absolute;
+    width: 28px;
+    height: 16px;
+    top: 138px;
+    left: 58px;
+
+    color: #837E9F;
+    font-size: 14px;
+    font-family: Merriweather Sans;
+}
+
+.retangulo2 .img3 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    top: 150px;
+    left: 102px;
+}
+
+.retangulo2 .paragrafo4 {
+    position: absolute;
+    width: 28px;
+    height: 16px;
+    top: 138px;
+    left: 130px;
+
+    color: #837E9F;
+    font-size: 14px;
+    font-family: Merriweather Sans;
+
+}
+
+.retangulo2 .img4 {
+    position: absolute;
+    width: 15px;
+    height: 15px; 
+    top: 155px;
+    left: 339px;
+}
+
+.retangulo2 .paragrafo5 {
+    position: absolute;
+    width: 69px;
+    height: 16px;
+    top: 138px;
+    left: 362px;   
+
+    color: #837E9F;
+    font-size: 14px;
+    font-family: Merriweather Sans;
+}
+
+.container .retangulo3 {
+    
+    position: absolute;
+    width: 100%;
+    max-width: 461px;
+    height: 186px;
+    top:157px;
+    left: 939px;
+    
+     
+    border-radius: 20px;
+    background: #302F3D
+
+}
+
+.retangulo3 .img1 {
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 30px;
+    left: 30px;
+    
+}
+
+.retangulo3 .paragrafo1 {
+    position: absolute;
+    width: 79px;
+    height: 17px;
+    top: 15px;
+    left: 66px;
+    color: #837E9F;
+    font-size: 16px;
+    font-family: Merriweather Sans;
+    font-weight: 700;
+}
+
+.retangulo3 .paragrafo2 {
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    top: 70px;
+    left: 30px;
+
+    color: #837E9F;
+    font-size: 14px;
+    font-family: Merriweather Sans;
+    line-height: 20px;
+}
+
+.retangulo3 .img2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 150px;
+    left: 30px;
+}
+
+.retangulo3 .paragrafo3 {
+    position: absolute;
+    width: 28px;
+    height: 16px;
+    top: 138px;
+    left: 58px;
+
+    color: #837E9F;
+    font-size: 14px;
+    font-family: Merriweather Sans;
+
+}
+
+.retangulo3 .img3 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 150px;
+    left: 102px;
+}
+
+.retangulo3 .paragrafo4 {
+    position: absolute;
+    width: 28px;
+    height: 16px;
+    top: 138px;
+    left: 130px;
+
+    color: #837E9F;
+    font-size: 14px;
+    font-family: Merriweather Sans;
+}
+
+.retangulo3 .img4 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 150px;
+    left: 339px;
+}
+
+.retangulo3 .paragrafo5 {
+    position: absolute;
+    width: 69px;
+    height: 16px;
+    top: 135px;
+    left: 362px;
+
+    color: #837E9F;
+    font-size: 14px;
+    font-family: Merriweather Sans;
+}
+
+.retangulo3:hover {
+    background: #fafafb2d;
+    border: 3px solid #070707;
+}
+
+.container .retangulo4 {
+    
+    border-radius: 20px;
+    background: #302F3D;
+    position: absolute;
+    width: 100%;
+    max-width: 348px;
+    height: 348px;
+    top: 362px;
+    left: 40px;
+        
+}
+
+.retangulo4 .map {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 30px;
+    left: 40px;
+    flex-shrink: 0;
+}
+
+.retangulo4 .brief{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 74px;
+    left: 40px;
+    flex-shrink: 0;
+}
+
+.retangulo4 .git {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    top: 118px;
+    left: 40px;
+}
+
+.retangulo4 .linkedin {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    top: 162px;
+    left: 40px;
+
+}
+
+.retangulo4 .twitter {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    top: 206px;
+    left: 40px;  
+}
+
+.retangulo4 .globe {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 250px;
+    left: 40px;
+    flex-shrink: 0;
+    
+}
+
+.retangulo4 .mail {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    top: 294px;
+    left: 40px;
+}
+
+.retangulo4 .paragrafo1 {
+    position: absolute;
+    width: 35px;
+    height: 16px;
+    top: 20px;
+    left: 84px;
+    color: #837E9F;
+    font-size: 13px;
+    font-family: Merriweather Sans;
+
+}
+
+.retangulo4 .paragrafo2 {
+    position: absolute;
+    width: 64px;
+    height: 15px;
+    top: 67px;
+    left: 84px;
+    color: #837E9F;
+    font-size: 13px;
+    font-family: Merriweather Sans;
+}
+
+.retangulo4 .paragrafo3 {
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    top: 106px;
+    left: 84px;
+    color: #837E9F;
+    font-size: 13px;
+    font-family: Merriweather Sans;
+}
+
+.retangulo4 .paragrafo4 {
+    position: absolute;
+    width: 109px;
+    height: 16px;
+    top: 155px;
+    left: 84px;
+    color: #837E9F;
+    font-size: 13px;
+    font-family: Merriweather Sans;
+}
+
+.retangulo4 .paragrafo5 {
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    top: 197px;
+    left: 84px;
+    color: #837E9F;
+    font-size: 13px;
+    font-family: Merriweather Sans;
+    }
+
+.retangulo4 .paragrafo6 {
+    position: absolute;
+    width: 137px;
+    height: 15px;
+    top: 240px;
+    left: 84px;
+    color: #837E9F;
+    font-size: 13px;
+    font-family: Merriweather Sans;
+
+} 
+
+.retangulo4 .paragrafo7 {
+    position: absolute;
+    width: 166px;
+    height: 15px;
+    top: 284px;
+    left: 84px;
+    color: #837E9F;
+    font-size: 13px;
+    font-family: Merriweather Sans;
+}
+
+.retangulo4:hover {
+    background: #fafafb2d;
+    border: 3px solid #070707; 
+}
+.container .retangulo5 {
+    
+    position: absolute;
+    width: 100%;
+    max-width: 952px;
+    height: 86px;
+    top: 373px;
+    left: 448px;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background: #302F3D;
+}
+
+.retangulo5 .paragrafo1{
+   
+    position: absolute;
+    width: 140px;
+    height: 26px;
+    top: 10px;
+    left: 30px;
+    color: #837E9F;
+    font-size: 20px;
+    font-family: Merriweather Sans;
+    font-weight: 700;
+
+
+
+}
+
+.retangulo5:hover {
+    background: #fafafb2d;
+    border: 3px solid #070707; 
+}
+
+.container .retangulo6 {
+    
+    
+    position: absolute;
+    width: 100%;
+    max-width: 952px;
+    height: 201px;
+    top: 489px;
+    left: 448px;
+    padding: 0;
+    
+    border-radius: 20px;
+    background: #302F3D;
+    
+}
+.retangulo6 .imagem1 {
+    position: absolute;
+    border: 2px solid #070707;
+    width: 128px;
+    height: 128px;
+    top: 31px;
+    left: 30px;
+    
+    border-radius: 128px;
+    background-image: url(assets/avatar-depois.png);
+    background-size: cover;
+}
+
+
+.retangulo6 .paragrafo1 {
+
+    position: absolute;
+    width: 100%;
+    max-width: 612px;
+    height: 31px;
+    left: 200px;
+    top: 70px;
+
+    color: #837E9F;
+    font-size: 18px;
+    font-family: Merriweather Sans;
+    font-weight: 700;
+}
+
+.retangulo6:hover {
+    background: #fafafb2d;
+    border: 3px solid #070707; 
+}
+
+.container .retangulo7 {
+    position: absolute;
+    width: 348px;
+    height: 100px;
+    top: 740px;
+    left: 40px;
+
+    border-radius: 20px;
+    background: #302F3D;
+}
+
+.retangulo7 .paragrafo1 {
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    top: 0px;
+    left: 20px;
+
+    color: #837E9F;
+    font-size: 20px;
+    font-family: Merriweather Sans;
+    font-weight: 700;
+}
+
+.sub-retangulo7 {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    top: 60px;
+    left: 20px;
+
+   border-radius: 30px;
+   background: #CB92B1;
+}
+
+.sub-retangulo7 .paragrafo1 {
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    top: -4px;
+    left: 1px;
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+    font-family: Merriweather Sans;
+    font-weight: 700;
+}
+
+.sec-retangulo7 {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 110px;
+    border-radius: 30px;
+    background: #CB92B1;
+}
+
+.sec-retangulo7 .paragrafo2 {
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    top: -4px;
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+    font-family: Merriweather Sans;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.ter-retangulo7 {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 220px;
+    border-radius: 30px;
+    background: #CB92B1;
+}
+
+.ter-retangulo7 .paragrafo3 {
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    top: -4px;
+
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+    font-family: Merriweather Sans;
+    font-weight: 700;
+    text-transform: uppercase; 
+
+}
+
+.retangulo7:hover {
+    background: #fafafb2d;
+    border: 3px solid #070707; 
+}
+
+.container .retangulo_1 {
+    position: absolute;
+    width: 348px;
+    height: 250px;
+    top: 870px;
+    left: 40px;
+    border-radius: 20px;
+    background: #302F3D;
+
+}
+
+.retangulo_1 .paragrafo1 {
+    position: absolute;
+    width: 141px;
+    height: 26px;
+    left: 20px;
+    color: #837E9F;
+    font-size: 20px;
+    font-family: Merriweather Sans;
+    font-weight: 700;
+
+}
+
+.retangulo_1 .paragrafo2 {
+    position: absolute;
+    top: 50px;
+    padding: 15px;
+    text-align: justify;
+    color: #837E9F;
+    font-size: 14px;
+    font-family: Merriweather Sans;
+    font-weight: 700;
+    text-indent: 1.5em;
+}
+
+.retangulo_1:hover {
+    background: #fafafb2d;
+    border: 3px solid #070707; 
+}
